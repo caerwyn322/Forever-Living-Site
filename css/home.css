@@ -1,0 +1,70 @@
+body{
+	width: 100%;
+	height: 100%;
+}
+.nav{
+	width: 85vw;
+	margin: 0 auto 2rem;
+}
+
+/*Carousel CSS*/
+.carousel{
+	width: 100%;
+	height: 85%;
+	margin-bottom: 2rem;
+	background-color: #022740;
+}
+.slider li{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.slider-images{
+	width: 85vw;
+	height: 27rem;
+}
+.slider{
+	width: 100%;
+	height: 100%;
+}	
+
+/*Gallery CSS*/
+.gallery{
+	width: 85vw;
+	display: flex;
+	margin: auto;
+}
+.gallery-content{
+	
+}
+.card-images{
+	height: 100%;
+	width: 100%;
+}
+
+/*Banner CSS*/
+.banner{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.cover-overlay{
+	margin-top: -10rem;
+	z-index: 1;
+}
+
+/*Blog CSS*/
+.blog{
+	margin-top: 2rem;
+}
+.blog-card{
+	display:flex;
+	justify-content: justify;
+	align-items:center;
+}
